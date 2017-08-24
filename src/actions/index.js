@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = "ab395f4ef9ca67740fc43a818901534f";
-const ROOT_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
+const ROOT_URL = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
 
 //the AJAX request
 //the app state includes weather data
